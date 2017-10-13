@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="culture">CULTURE</string>
+    <string name="food">FOOD</string>
+    <string name="tourguideoakland">Tour Guide for Oakland</string>
+    <string name="kids">KIDS</string>
+    <string name="outdoors">OUTDOORS</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <TextView
+        android:text="@string/tourguideoakland"
+        style="@style/TourGuideStyle"
+        android:background="@color/category_numbers"/>
+
+    <TextView
+        android:text="@string/food"
+        android:id="@+id/food"
+        style="@style/TourGuideStyle"
+        android:background="@color/category_numbers"/>
+
+    <TextView
+        android:text="@string/culture"
+        android:id="@+id/culture"
+        style="@style/TourGuideStyle"
+        android:background="@color/category_numbers"/>
+
+    <TextView
+        android:text="@string/kids"
+        android:id="@+id/kids"
+        style="@style/TourGuideStyle"
+        android:background="@color/category_numbers"/>
+
+    <TextView
+        android:text="@string/outdoors"
+        android:id="@+id/outdoors"
+        style="@style/TourGuideStyle"
+        android:background="@color/category_numbers"/>
+
+</LinearLayout>
