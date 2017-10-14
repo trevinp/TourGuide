@@ -5,7 +5,6 @@ public class Location {
     private String mName;
     private String mAddress;
     private String mDescription;
-    private String mCategory;
 
     public String getName() {
         return mName;
@@ -31,18 +30,10 @@ public class Location {
         this.mDescription = mDescription;
     }
 
-    public String getCategory() {
-        return mCategory;
-    }
 
-    public void setCategory(String mCategory) {
-        this.mCategory = mCategory;
-    }
-
-    public Location(String name, String address, String description, String category) {
+    public Location(String name, String address, String description) {
         mName = name;
         mAddress = address;
         mDescription = description;
-        mCategory = category;
     }
 }
