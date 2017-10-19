@@ -11,30 +11,30 @@
     <TextView
         android:text="@string/tourguideoakland"
         style="@style/TourGuideStyle"
-        android:background="@color/category_numbers"/>
+        android:background="@android:color/darker_gray"/>
 
     <TextView
         android:text="@string/food"
         android:id="@+id/food"
         style="@style/TourGuideStyle"
-        android:background="@color/category_numbers"/>
+        android:background="@android:color/darker_gray"/>
 
     <TextView
         android:text="@string/culture"
         android:id="@+id/culture"
         style="@style/TourGuideStyle"
-        android:background="@color/category_numbers"/>
+        android:background="@android:color/darker_gray"/>
 
     <TextView
         android:text="@string/kids"
         android:id="@+id/kids"
         style="@style/TourGuideStyle"
-        android:background="@color/category_numbers"/>
+        android:background="@android:color/darker_gray"/>
 
     <TextView
         android:text="@string/outdoors"
         android:id="@+id/outdoors"
         style="@style/TourGuideStyle"
-        android:background="@color/category_numbers"/>
+        android:background="@android:color/darker_gray"/>
 
 </LinearLayout>

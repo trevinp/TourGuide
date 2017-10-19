@@ -4,7 +4,6 @@ public class Location {
 
     private String mName;
     private String mAddress;
-    private String mDescription;
 
     public String getName() {
         return mName;
@@ -22,18 +21,9 @@ public class Location {
         this.mAddress = mAddress;
     }
 
-    public String getDescription() {
-        return mDescription;
-    }
 
-    public void setDescription(String mDescription) {
-        this.mDescription = mDescription;
-    }
-
-
-    public Location(String name, String address, String description) {
+    public Location(String name, String address) {
         mName = name;
         mAddress = address;
-        mDescription = description;
     }
 }
