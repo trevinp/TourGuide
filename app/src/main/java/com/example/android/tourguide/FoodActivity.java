@@ -10,6 +10,8 @@ import static com.example.android.tourguide.R.layout.tour_list;
 
 public class FoodActivity extends AppCompatActivity {
 
+    // test comment
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
