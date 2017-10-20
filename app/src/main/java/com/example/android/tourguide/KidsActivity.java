@@ -17,9 +17,9 @@ public class KidsActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("kid 1","123 Main"));
-        locations.add(new Location("kid 2","456 Main"));
-        locations.add(new Location("kid 3","789 Main"));
+        locations.add(new Location(getString(R.string.fairyland),getString(R.string.fairyland_location)));
+        locations.add(new Location(getString(R.string.farm),getString(R.string.farm_location)));
+        locations.add(new Location(getString(R.string.pump),getString(R.string.pump_location)));
         LocationAdapter adapter = new LocationAdapter(this, locations, R.color.category_family);
 
         ListView listView = (ListView) findViewById(R.id.list);

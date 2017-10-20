@@ -17,9 +17,9 @@ public class OutdoorsActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("outdoors 1","123 Main"));
-        locations.add(new Location("outdoors 2","456 Main"));
-        locations.add(new Location("outdoors 3","789 Main"));
+        locations.add(new Location(getString(R.string.redwood),getString(R.string.redwood_location)));
+        locations.add(new Location(getString(R.string.merritt),getString(R.string.merritt_location)));
+        locations.add(new Location(getString(R.string.harbor),getString(R.string.harbor_location)));
         LocationAdapter adapter = new LocationAdapter(this, locations, R.color.category_family);
 
         ListView listView = (ListView) findViewById(R.id.list);

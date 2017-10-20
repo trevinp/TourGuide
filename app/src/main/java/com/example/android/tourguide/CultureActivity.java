@@ -17,9 +17,9 @@ public class CultureActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("culture 1","123 Main"));
-        locations.add(new Location("culture 2","456 Main"));
-        locations.add(new Location("culture 3","789 Main"));
+        locations.add(new Location(getString(R.string.omca_name),getString(R.string.omca)));
+        locations.add(new Location(getString(R.string.aam),getString(R.string.aam_location)));
+        locations.add(new Location(getString(R.string.pardee),getString(R.string.pardee_location)));
         LocationAdapter adapter = new LocationAdapter(this, locations, R.color.category_family);
 
         ListView listView = (ListView) findViewById(R.id.list);

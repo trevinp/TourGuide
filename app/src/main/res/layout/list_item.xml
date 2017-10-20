@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="10dp"
         android:layout_toEndOf="@+id/imageViewImage"
         android:layout_toRightOf="@+id/imageViewImage"
         android:textColor="@android:color/black"
@@ -29,7 +29,8 @@
         android:layout_alignLeft="@+id/textViewName"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textViewName"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="10sp"
         android:text="TextView" />
 
 </RelativeLayout>
