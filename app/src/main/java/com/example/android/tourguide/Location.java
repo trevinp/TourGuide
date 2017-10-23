@@ -4,6 +4,15 @@ public class Location {
 
     private String mName;
     private String mAddress;
+    private int mResourceID;
+
+    public int getResourceID() {
+        return mResourceID;
+    }
+
+    public void setResourceID(int mResourceID) {
+        this.mResourceID = mResourceID;
+    }
 
     public String getName() {
         return mName;
@@ -25,5 +34,11 @@ public class Location {
     public Location(String name, String address) {
         mName = name;
         mAddress = address;
+    }
+
+    public Location(String name, String address, int resourceid) {
+        mName = name;
+        mAddress = address;
+        mResourceID = resourceid;
     }
 }

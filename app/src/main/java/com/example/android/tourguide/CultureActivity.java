@@ -17,12 +17,16 @@ public class CultureActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location(getString(R.string.omca_name),getString(R.string.omca)));
-        locations.add(new Location(getString(R.string.aam),getString(R.string.aam_location)));
-        locations.add(new Location(getString(R.string.pardee),getString(R.string.pardee_location)));
+        locations.add(new Location(getString(R.string.omca_name),
+                getString(R.string.omca), R.drawable.omca));
+        locations.add(new Location(getString(R.string.aam),
+                getString(R.string.aam_location), R.drawable.aa_museum));
+        locations.add(new Location(getString(R.string.pardee),
+                getString(R.string.pardee_location), R.drawable.pardee));
         LocationAdapter adapter = new LocationAdapter(this, locations, R.color.category_family);
 
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
+
     }
 }
