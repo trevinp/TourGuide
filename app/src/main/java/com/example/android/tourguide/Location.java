@@ -10,24 +10,12 @@ public class Location {
         return mResourceID;
     }
 
-    public void setResourceID(int mResourceID) {
-        this.mResourceID = mResourceID;
-    }
-
     public String getName() {
         return mName;
     }
 
-    public void setName(String mName) {
-        this.mName = mName;
-    }
-
     public String getAddress() {
         return mAddress;
-    }
-
-    public void setAddress(String mAddress) {
-        this.mAddress = mAddress;
     }
 
 
